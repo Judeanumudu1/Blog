@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-1{
+    display: flex; 
+    justify-items: flex-end;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    
+
+span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}  
+
+.create-button{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.subscribe-button{
+margin-left: 900px;
+}
+.drop1{
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn{
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    font-size: large;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    z-index: 89;
+    max-height: 0;
+    min-width: 100px;
+    transition: max-height 0.15s ease-out; 
+}
+
+.dropdown-menu a{
+    background-color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover{
+    background-color: white;
+}
+
+.dropdown-menu:hover .dropdown-menu{
+    max-height: 500px;
+    min-width: 160px;
+    transition: max-height 0.25s ease-in;
+}
